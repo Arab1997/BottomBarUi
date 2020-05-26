@@ -1,0 +1,2 @@
+rootProject.name='BottomBarUi'
+include ':app'
