@@ -24,7 +24,13 @@
         android:backgroundTint="@color/colorPrimary"
         style="@style/Widget.MaterialComponents.BottomAppBar"
         app:menu="@menu/app_bar"/>
-
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottom_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabAlignmentMode="center"/>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
